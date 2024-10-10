@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 15px;
+}
+header .name{
+    font-size: 28px;
+}
+.banner{
+    background-image: url(/images/Hero-bg.png);
+    height: 90vh;
+}
