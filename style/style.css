@@ -35,7 +35,7 @@ header .btn{
 /* banner section start */
 .banner {
   background-image: url(/images/Hero-bg.png);
-  height: 85vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -63,4 +63,61 @@ header .btn{
 
 /* About web dev section start */
 .about-web-dev {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
 }
+.title-description{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title-description h2{
+  font-size: 32px;
+}
+.title-description p{
+  text-align: center;
+  padding: 10px 50px;
+  font-size: 16px;
+}
+
+.articel-container{
+  display: flex;
+  flex-direction: column;
+  padding: 50px 200px;
+}
+ .articel-container article{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+ }
+ .articel-container article>div{
+  margin-right: 150px;
+ }
+ article h3{
+  font-size: 24px;
+ }
+ .articel-container article>div h3,p{
+  text-align: left;
+  padding: 5px 10px;
+ }
+ .article-btn{
+  display: inline-block;
+  margin-top: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 5px 12px;
+  color: black;
+  font-weight: 500;
+ }
+ .article-btn:hover{
+  background-color: #000000;
+  color: wheat;
+ }
+ /* why web development section end */
+
+ /* my inspiration section start */
+
