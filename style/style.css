@@ -121,3 +121,24 @@ header .btn{
 
  /* my inspiration section start */
 
+.my-inspiration{
+  text-align: center;
+  padding: 50px 200px;
+}
+.my-inspiration>div{
+  margin-bottom: 30px;
+}
+.my-inspiration h3{
+  font-size: 32px;
+  padding-bottom: 10px;
+}
+.my-inspiration p{
+  text-align: center;
+  font-weight: 450;
+}
+.my-inspiration iframe{
+  border-radius: 5px;
+}
+/* my inspiration section end */
+
+/*  */
