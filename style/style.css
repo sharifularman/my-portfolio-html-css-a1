@@ -1,18 +1,66 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
   margin: 0;
   padding: 0;
+  font-family: "Exo", sans-serif;
 }
+/* header and navbar part start */
 header {
   display: flex;
   justify-content: space-between;
-  margin: 10px 15px;
+  margin: 30px 15px;
 }
 header .name {
   font-size: 28px;
 }
+header .btn{
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.btn a{
+  text-decoration: none;
+  color: black;
+}
+.btn:hover{
+  background-color: bisque;
+  color: rebeccapurple;
+}
+/* header and navbar part end */
+
+/* main part start */
+
+/* banner section start */
 .banner {
   background-image: url(/images/Hero-bg.png);
-  height: 90vh;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 26px 221px;
 }
+.banner .title{
+  font-size: 40px;
+  font-weight: 800;
+}
+.banner p{
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: 450;
+}
+.banner .contact-btn{
+  text-decoration: none;
+  background: rgb(13, 19, 33);
+  color: whitesmoke;
+  padding: 12px 18px;
+  border-radius: 10px;
+}
+/* banner section end */
+
+/* About web dev section start */
 .about-web-dev {
 }
