@@ -188,3 +188,42 @@ header .btn{
 #js-card{
   background-color: rgba(179, 27, 27, 0.1);
 }
+/* my current target section end here */
+
+/* my  next target section start here */
+.my-next-target{
+  text-align: center;
+  padding: 10px 200px;
+  margin: 80px ;
+}
+.my-next-target>div h3{
+  font-size: 32px;
+}
+#next-card-container{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+margin: auto;
+}
+.col-cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-direction: row;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 1px black;
+  width: 800px;
+  height: 120px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+#reactjs{
+  background-color: rgba(0, 122, 128, 0.1);
+}
+#nodejs{
+  background-color: rgba(0, 128, 0, 0.284);
+}
+#mongodb{
+  background-color: rgba(0, 128, 47, 0.284);
+}
