@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   font-family: "Exo", sans-serif;
+  /* background-color: whitesmoke; */
 }
 /* header and navbar part start */
 header {
@@ -17,17 +18,16 @@ header .name {
 header .btn{
   padding: 10px 20px;
   font-size: 20px;
-  background-color: #fff;
+  background-color: whitesmoke;
   border-radius: 10px;
+  border: 1px solid black;
+
 }
 .btn a{
   text-decoration: none;
   color: black;
 }
-.btn:hover{
-  background-color: bisque;
-  color: rebeccapurple;
-}
+
 /* header and navbar part end */
 
 /* main part start */
@@ -141,4 +141,50 @@ header .btn{
 }
 /* my inspiration section end */
 
-/*  */
+/* my current target section */
+.my-current-target{
+  text-align: center;
+  padding: 10px 200px;
+}
+.my-current-target>div p{
+  text-align: center;
+  padding-top: 15px;
+}
+.my-current-target>div h3{
+  font-size: 32px;
+}
+.card-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+.cards{
+  border: none;
+  margin:20px;
+  border-radius: 5px;
+  width: 450px;
+  height: 300px;
+  box-shadow: 0px 0px 1px black;
+  text-align: center;
+  padding: 30px 10px 0 10px;
+}
+.cards h4,p{
+  margin-bottom: 10px;
+}
+.card-btn{
+  padding: 5px 10px;
+  text-decoration: underline;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#html-card{
+  background-color: rgba(255, 192, 203, 0.3);
+}
+#css-card{
+  background-color: rgba(0, 0, 255, 0.1);
+}
+#js-card{
+  background-color: rgba(179, 27, 27, 0.1);
+}
