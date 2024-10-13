@@ -227,3 +227,42 @@ margin: auto;
 #mongodb{
   background-color: rgba(0, 128, 47, 0.284);
 }
+/* my next target section is end here */
+
+/* contact me section start here */
+#contact-me{
+  background-image: url(/images/handshake.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 900px;
+  height: 300px;
+  border-radius: 10px;
+  margin: auto;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#contact-me h4{
+  font-size: 42px;
+}
+#contact-me input{
+  height: 40px;
+}
+#contact-me #feedback{
+  width: 400px;
+  border-radius: 10px;
+  border:none;
+  margin-right: 10px;
+}
+#feedback::placeholder{
+  text-align: center;
+  font-size: 18px;
+}
+#submit-btn{
+  font-size: 18px;
+  border-radius: 10px;
+  padding: 5px 15px;
+  font-weight: 600;
+}
+
