@@ -266,3 +266,23 @@ margin: auto;
   font-weight: 600;
 }
 
+/* contact me section end here */
+
+/* footer starts here */
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 100px;
+  background: rgba(128, 128, 128, 0.2);
+  padding: 50px 10px;
+}
+footer ul{
+list-style: none;
+display: flex;
+flex-direction: row;
+}
+footer ul li{
+  margin-right: 25px;
+}
+/* footer ends here */
