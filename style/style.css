@@ -34,7 +34,7 @@ header .btn{
 
 /* banner section start */
 .banner {
-  background-image: url("/images/Hero-bg.png");
+  background-image: url("../images/Hero-bg.png");
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -231,7 +231,7 @@ margin: auto;
 
 /* contact me section start here */
 #contact-me{
-  background-image: url(/images/handshake.jpg);
+  background-image: url("../images/handshake.jpg");
   background-position: center;
   background-size: cover;
   width: 900px;
